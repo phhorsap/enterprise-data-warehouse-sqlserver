@@ -39,24 +39,5 @@ The model is optimized for analytical queries and BI tools such as Power BI.
 - Incremental load supported
 - Indexing strategy applied for performance
 
----
 
-## Business Value
-enterprise-data-warehouse/
-├── schema/             # SQL Scripts
-│   ├── create_table.sql
-│   ├── create_views.sql
-│   └── insert_sample_data.sql
-├── src/                # Python Logic
-│   ├── db_connection.py
-│   └── data_processing.py
-├── app/                # Dashboard App
-│   └── dashboard.py    # (Streamlit or Plotly Dash)
-├── docs/               # Documentation
-│   └── er_diagram.png  # รูปผังฐานข้อมูล
-├── requirements.txt
-└── README.md
-This architecture enables:
-- Fast KPI calculation
-- Historical trend analysis
-- Performance optimization in manufacturing operations
+
